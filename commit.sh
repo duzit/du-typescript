@@ -1,4 +1,4 @@
 git add .
-git commit -m 'add types'
+git commit -m 'add interfaces'
 git pull 
 git push 
