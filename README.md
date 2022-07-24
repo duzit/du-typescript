@@ -4,4 +4,6 @@
 
 - [文档整理](https://duzit.github.io/note/ts/)
 
-- 执行文件 `tsc xxx`
+- 执行文件  
+  `tsc xxx.ts` 编译成 js 文件  
+  `ts-node xxx.ts` 执行 ts 文件

@@ -1,4 +1,4 @@
 git add .
-git commit -m 'add function array'
+git commit -m 'add class'
 git pull 
 git push 
