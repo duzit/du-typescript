@@ -94,3 +94,24 @@ const west: Person6 = {
 
 // owen.id = '11'
 // // 不能给 readonly 的属性赋值
+
+// 含有对象的interface
+interface House {
+  name: string;
+  address: string;
+  info: {
+    a: string;
+    b: number;
+  };
+  [propsname: string]: any;
+  select?: boolean;
+}
+
+const jiangnan: House = {
+  name: 'jn',
+  address: 'boao',
+  info: {
+    a: 'nan',
+    b: 1
+  }
+}
